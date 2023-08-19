@@ -6,7 +6,7 @@
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "ts-node ./src/thunderBot.ts"
+      "start": "ts-node ./src/index.ts"
     },
     "author": "p.mohebby",
     "license": "ISC",
