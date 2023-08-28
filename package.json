@@ -1,27 +1,44 @@
 {
-    "name": "ssh-user-manager-telegram-bot",
-    "version": "1.0.0",
-    "description": "Manage your SSH users through your telegram bot",
-    "homepage": "https://github.com/pmohebby/ssh-user-manager-telegram-bot",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "ts-node ./src/index.ts"
-    },
-    "author": "p.mohebby",
-    "license": "ISC",
-    "dependencies": {
-      "axios": "^1.3.5",
-      "dotenv": "^16.3.1",
-      "linux-sys-user": "https://github.com/pmohebby/linux-user",
-      "node-telegram-bot-api": "^0.61.0"
-    },
-    "devDependencies": {
-      "@types/node": "^20.3.1",
-      "@types/node-telegram-bot-api": "^0.61.6",
-      "ts-node": "^10.9.1",
-      "tslib": "^2.5.3",
-      "typescript": "^5.1.3"
-    }
+  "name": "ssh-user-manager-telegram-bot",
+  "version": "1.0.0",
+  "description": "Manage your SSH users through your telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiredPigeon/ssh-user-manager-telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "ssh-tuunnel",
+    "bot",
+    "telegram-bot-api",
+    "typescript",
+    "ssh-user-manager",
+    "vpn",
+    "tunneling"
+  ],
+  "author": "tiredPigeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiredPigeon/ssh-user-manager-telegram-bot/issues"
+  },
+  "dependencies": {
+    "@microsoft/eslint-formatter-sarif": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.48.0",
+    "linux-sys-user": "github:tiredPigeon/linux-user",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "homepage": "https://github.com/tiredPigeon/ssh-user-manager-telegram-bot#readme",
+  "devDependencies": {
+    "@types/eslint": "^8.44.2",
+    "@types/node": "^20.5.7",
+    "@types/node-telegram-bot-api": "^0.61.7",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
   }
-  
+}

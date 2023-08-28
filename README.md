@@ -5,7 +5,7 @@ This can be useful for people who want to create SSH users solely for the purpos
 ### Usage:
 1. Clone this repository on your server using git:
 ```bash
-git clone https://github.com/pmohebby/ssh-user-manager-telegram-bot.git
+git clone https://github.com/tiredPigeon/ssh-user-manager-telegram-bot.git
 ```
 2. Use your desire package manager to install node packages:
 ```
