@@ -4,11 +4,11 @@
   "description": "Manage your SSH users through your telegram bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiredPigeon/ssh-user-manager-telegram-bot.git"
+    "url": "https://github.com/tiredPigeon/ssh-user-manager-telegram-bot.git"
   },
   "keywords": [
     "telegram",
@@ -26,17 +26,19 @@
     "url": "https://github.com/tiredPigeon/ssh-user-manager-telegram-bot/issues"
   },
   "dependencies": {
-    "@microsoft/eslint-formatter-sarif": "^3.0.0",
     "dotenv": "^16.3.1",
-    "eslint": "^8.48.0",
     "linux-sys-user": "github:tiredPigeon/linux-user",
     "node-telegram-bot-api": "^0.61.0"
   },
   "homepage": "https://github.com/tiredPigeon/ssh-user-manager-telegram-bot#readme",
   "devDependencies": {
+    "@microsoft/eslint-formatter-sarif": "^3.0.0",
     "@types/eslint": "^8.44.2",
-    "@types/node": "^20.5.7",
+    "@types/node": "^20.5.9",
     "@types/node-telegram-bot-api": "^0.61.7",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.48.0",
     "ts-node": "^10.9.1",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
